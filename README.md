@@ -24,6 +24,28 @@ Project contain the following files:
 - example4_precomputed.mat - precompution for Example4
 - README.md
 
+## References
+  title={A Rational Krylov Subspace Method for the Computation of the Matrix Exponential Operator}, 
+  author={H. Barkouki and A. H. Bentbib and K. Jbilou},
+  year={2023},
+  eprint={2308.14639},
+  archivePrefix={arXiv},
+  primaryClass={math.NA},
+  url={https://arxiv.org/abs/2308.14639}, 
+
+
+V. Druskin, V. Simoncini,
+Adaptive rational Krylov subspaces for large-scale dynamical systems,
+Systems & Control Letters,
+Volume 60, Issue 8,
+2011,
+Pages 546-560,
+ISSN 0167-6911,
+https://doi.org/10.1016/j.sysconle.2011.04.013.
+(https://www.sciencedirect.com/science/article/pii/S0167691111000946)
+Abstract: The rational Krylov space is recognized as a powerful tool within model order reduction techniques for linear dynamical systems. However, its success has been hindered by the lack of a parameter-free procedure, which would effectively generate the sequence of shifts used to build the space. In this paper we propose an adaptive computation of these shifts. The whole procedure only requires us to inject some initial rough estimate of the spectral region of the matrix, while further information is automatically generated during the process. The approach is a full generalization to the nonsymmetric case of the idea first proposed in Druskin et al. (2010) [18] and it is used for two important problems in control: the approximation of the transfer function and the numerical solution of large Lyapunov equations. The procedure can be naturally extended to other related problems, such as the solution of the Sylvester equation, and parametric or higher order systems. Several numerical experiments are proposed to assess the quality of the rational projection space over its most natural competitors.
+Keywords: Lyapunov equation; Rational Krylov subspace; Model order reduction; Iterative methods; Transfer function
+
 ## Authors
 Michaela Brzková, Jan Cirbus, Matouš Brodský, Svatopluk Vaňous, Martin Šimša
 
